@@ -1,0 +1,17 @@
+body {
+  background-color: #669999;
+  color:white;
+}
+
+#show-contact {
+  display:none;
+}
+
+.contact {
+  cursor: pointer;
+  color: white;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
