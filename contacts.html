@@ -17,12 +17,31 @@
           <form id="new-contact">
             <div class="form-group">
               <label for="new-first-name">First name</label>
-              <input type="text" class="form-control" id="new-first-name">
+              <input type="text" class="form-control" id="new-first-name" placeholder="First">
             </div>
             <div class="form-group">
               <label for="new-last-name">Last name</label>
-              <input type="text" class="form-control" id="new-last-name">
+              <input type="text" class="form-control" id="new-last-name" placeholder="Last">
             </div>
+
+            <div id="new-addresses">
+              <div class="new-address">
+                <div class="form-group">
+                  <label for="new-street">Street</label>
+                  <input type="text" class="form-control new-city" placeholder="Street">
+                </div>
+                <div class="form-group">
+                  <label for="new-city">City</label>
+                  <input type="text" class="form-control new-state" placeholder="City">
+                </div>
+                <div class="form-group">
+                  <label for="new-state">State</label>
+                  <input type="text" class="form-control new-state" placeholder="State">
+                </div>
+              </div>
+            </div>
+
+            <span class="btn btn-success" id="add-address">Another Address</span>
 
             <button type="submit" class="btn btn-success">Add</button>
           </form>
